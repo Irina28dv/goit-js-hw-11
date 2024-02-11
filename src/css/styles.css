@@ -4,11 +4,11 @@ body {
   margin: 0 auto;
 }
 
-.form {
+.search-form {
   text-align: center;
 }
 
-.form-input {
+.image-query {
   width: 289px;
   height: 40px;
   padding: 0px 0px 0px 17px;
@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.form-btn {
+.search-button {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -37,8 +37,23 @@ body {
   margin-left: 10px;
 }
 
-.form-btn:hover {
+.search-button:hover {
   background-color: #6c8cff;
+}
+.search-btn{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 ul,
@@ -96,16 +111,4 @@ p {
   border: 1px solid #fff;
   border-radius: 10px;
   overflow: hidden;
-}
-
-@keyframes animloader {
-  0% {
-      left: 0;
-      transform: translateX(-100%);
-  }
-
-  100% {
-      left: 100%;
-      transform: translateX(0%);
-  }
 }
